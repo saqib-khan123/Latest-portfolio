@@ -468,7 +468,7 @@ const Home = () => {
 
                             <div className='col-md-6 form-p '>
 
-                                <p>I am available for  work. Connect with me via phone: 09368098745 or email: saqibpathan776@gmail.com</p>
+                                <p>I am available for work. Connect with me via phone: 09368098745 or email: saqibpathan776@gmail.com</p>
 
                                 <input type='text' className='form-control mb-3' placeholder='Your Name' />
                                 <input type='text' className='form-control mb-3' placeholder='Your Email' />
