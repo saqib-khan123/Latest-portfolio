@@ -75,7 +75,7 @@ const Home = () => {
                                         </li>
 
                                         <li class="nav-item">
-                                            <a class="nav-link active" onClick={scroll22} aria-current="page" href="#">Review</a>
+                                            <a class="nav-link active" onClick={scroll22} aria-current="page" href="#">Experience</a>
                                         </li>
 
                                         <li class="nav-item">
@@ -106,7 +106,7 @@ const Home = () => {
                                     </div>
                                 </h1>
                             </div>
-                            <p className='intro'>I'm<span> Saqib</span> Welcome  <br />To The Portfolio.</p>
+                            <p className='intro'>I'm<span> Saqib </span> & Welcome  <br />To The Portfolio.</p>
                         </div>
                     </div>
                 </div>
@@ -161,7 +161,6 @@ const Home = () => {
                                             <li><i class="bi bi-rounded-right"></i> <strong>Age:</strong>  24</li>
                                             <li><i class="bi bi-rounded-right"></i> <strong>Degree:</strong>  Bachelor Of Application (BCA)</li>
                                             <li><i class="bi bi-rounded-right"></i> <strong>Email:</strong>  saqibpathan776@gmail.com</li>
-                                            {/* <li><i class="bi bi-rounded-right"></i> <strong>Freelance:</strong> Available</li> */}
                                         </ul>
                                     </div>
                                 </div>
@@ -211,54 +210,7 @@ const Home = () => {
                     </ul>
                    </div>
 
-                    {/* <div className='row'>
-                        <div className='col-md-6 mb-3 '>
-                            <div class="card">
-                                <img src="./images/review1.png" class="card-img-top" alt="..." height={150} />
-
-                            </div>
-
-                        </div>
-                        <div className='col-md-6 mb-3 '>
-                            <div class="card">
-                                <img src="./images/review2.png" class="card-img-top" alt="..." height={150} />
-
-                            </div>
-
-                        </div>
-                        <div className='col-md-6 mb-3 '>
-                            <div class="card">
-                                <img src="./images/review3.png" class="card-img-top" alt="..." height={150} />
-
-                            </div>
-
-                        </div>
-                        <div className='col-md-6 mb-3 '>
-                            <div class="card">
-                                <img src="./images/review4.png" class="card-img-top" alt="..." height={150} />
-
-                            </div>
-
-                        </div>
-                        <div className='col-md-6 mb-3 '>
-                            <div class="card">
-                                <img src="./images/review5.png" class="card-img-top" alt="..." height={150} />
-
-                            </div>
-
-                        </div>
-                        <div className='col-md-6 mb-3 '>
-                            <div class="card">
-                                <img src="./images/review6.png" class="card-img-top" alt="..." height={150} />
-
-                            </div>
-
-                        </div>
-
-
-
-
-                    </div> */}
+                
 
 
                 </section>
@@ -516,7 +468,7 @@ const Home = () => {
 
                             <div className='col-md-6 form-p '>
 
-                                <p>I am available for freelance work. Connect with me via phone: 01923 088574 or email: admin@example.com</p>
+                                <p>I am available for  work. Connect with me via phone: 09368098745 or email: saqibpathan776@gmail.com</p>
 
                                 <input type='text' className='form-control mb-3' placeholder='Your Name' />
                                 <input type='text' className='form-control mb-3' placeholder='Your Email' />
@@ -528,12 +480,7 @@ const Home = () => {
                                 </button>
 
                             </div>
-                            {/* <div className='col-md-6'>
-                            <img class="w-100 imag-size" src="./images/about-6.jpg" alt="About Images" />
-
-
-
-                        </div> */}
+                    
                             <div class="col-lg-6">
                                 <img className='contact-img' src="./images/about-6.jpg" class="img-fluid" alt="" />
                             </div>
@@ -561,10 +508,7 @@ const Home = () => {
                     {isVisible && (
                         <div className="top-btn" onClick={goToBtn}>
                             <FaArrowUp className="top-btn--icon" />
-                            {/* <div className="top-btn--icon">
-                            <svg   xmlns="http://www.w3.org/2000/svg" height="24" width="12" viewBox="0 0 384 512"><path d="M214.6 41.4c-12.5-12.5-32.8-12.5-45.3 0l-160 160c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L160 141.2V448c0 17.7 14.3 32 32 32s32-14.3 32-32V141.2L329.4 246.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3l-160-160z"/></svg>
-                            
-                            </div> */}
+                         
 
                         </div>
                     )}
