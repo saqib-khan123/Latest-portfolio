@@ -578,6 +578,9 @@ button:active {
   border-bottom: 1px solid #08a4c0 ;
   display: inline-block;
 }
+.margin-left{
+  margin-left: 30px;
+}
 
 @keyframes openclose {
   0% {
@@ -662,6 +665,17 @@ button:active {
     margin-left: 8px;
     /* margin-right: 50px; */
 }
+.margin-left{
+  margin-left: 0px;
+}
+.card-c__titl {
+  font-size: 16px !important;
+}
+.card-pp {
+  margin-left: 47px;
+ 
+}
+
 }
 @media (max-width: 450px){
   .card-pp {
@@ -670,12 +684,18 @@ button:active {
     /* margin-right: 10px; */
    
   }
+  .margin-left{
+    margin-left: 0px;
+  }
 }
 
 @media (max-width: 375px){
   .card-pp {
     width: 13.5rem;
     height: 14rem; 
+  }
+  .margin-left{
+    margin-left: 0px;
   }
   .card-c__titl {
     font-size: 16px !important;
@@ -686,11 +706,18 @@ button:active {
   .button-design{
     margin-left: 55px;
   }
+  .card-pp {
+    margin-left: 37px;
+   
+  }
 }
 @media (max-width: 320px){
   .card-pp {
     width: 13.5rem;
     height: 14rem; 
+  }
+  .margin-left{
+    margin-left: 0px;
   }
   .card-c__titl {
     font-size: 16px !important;
@@ -700,6 +727,10 @@ button:active {
   }
   .button-design{
     margin-left: 33px;
+  }
+  .card-pp {
+    margin-left: 10px;
+   
   }
 }
 @media (max-width: 799px){

@@ -382,7 +382,7 @@ const Home = () => {
                         </div>
                         <p>There are some my latest project which i build with my skills and I already mentioned above.</p>
 
-                        <div className="row" style={{marginLeft:'25px'}}>
+                        <div className="row margin-left" style={{}}>
                             <div className="col-xl-4 col-lg-6 col-md-6 col-sm-12 my-project-card">
                             <div className='col-md-4 pt-5'>
                             <div className="card card-pp my-link">
@@ -407,7 +407,7 @@ const Home = () => {
                             </div>
                         </div>
                             </div>
-                            <div className="col-xl-4 col-lg-6 col-md-6 col-sm-12 my-project-card">
+                            <div className="col-xl-4 col-lg-6 col-md-6 col-sm-12 ">
  
                             <div className='col-md-4 pt-5'>
                         <div className="card card-pp my-link">
@@ -424,7 +424,7 @@ const Home = () => {
 
                        
 
-                     <div className="row" style={{marginLeft:'25px'}}>
+                     <div className="row margin-left" style={{}}>
                         <div className="col-xl-4 col-lg-6 col-md-6 col-sm-12 my-pddn-class my-project-card">
                         <div className='col-md-4 pt-5'>
                         <div className="card card-pp my-link">
