@@ -62,7 +62,7 @@ const Home = () => {
                         <nav className="navbar navbar-expand-lg navbar-dark main-cont main-navigation">
                             <div className="container-fluid ">
                                 <a className="navbar-brand   name-brand2" href="#">Saqib Khan</a>
-                                <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                                <button className="navbar-toggler buttomMargin" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                                     <span className="navbar-toggler-icon"></span>
                                 </button>
                                 <div className=" collapse navbar-collapse  my-ul-links" id="navbarSupportedContent" >
@@ -332,13 +332,13 @@ const Home = () => {
                                 <h2 className='text-center mb-4 '>Certificates</h2>
                             </div>
 
-                            <div className='col-md-12 '>
+                            <div className='col-md-12 ' style={{marginLeft:'22px'}}>
                                 <p className=' pt-4'>Certificates within my portfolio showcase my commitment to continuous learning and mastery in various fields. Each certificate represents dedicated effort and proficiency attained in specialized areas. They serve as tangible proof of my expertise, validating skills honed through rigorous training and experience. These certifications not only highlight my qualifications but also signify a proactive approach towards personal and professional development. Each certificate stands as a testament to my dedication, knowledge, and ongoing pursuit of excellence.</p>
 
                             </div>
                             <div className='row justify-content-center dflexright'>
 
-                                <div className=' col-xl-4 col-lg-4 col-md-6 col-sm-12  mb-4 pb-4 pt-4'>
+                                <div className=' col-xl-4 col-lg-4 col-md-6 col-sm-12  mb-4 pb-4 pt-4 '>
                                     <div className="card card-c ">
                                         <img className="img-fluid imag-size img-cls" src="./images/Beige Gold Floral Border Certificate Of Appreciation.png" alt="About Images" />
 
@@ -374,7 +374,7 @@ const Home = () => {
 
 
                 {/* ============================Projects============== */}
-{/* 
+
                 <section>
                     <div className=' container-fluid row p-5 pe-0 text-center main-cont' id='project'> 
                         <div className="section-title">
@@ -382,8 +382,8 @@ const Home = () => {
                         </div>
                         <p>There are some my latest project which i build with my skills and I already mentioned above.</p>
 
-                        <div className="row">
-                            <div className="col-xl-4 col-lg-6 col-md-6 col-sm-12">
+                        <div className="row" style={{marginLeft:'25px'}}>
+                            <div className="col-xl-4 col-lg-6 col-md-6 col-sm-12 my-project-card">
                             <div className='col-md-4 pt-5'>
                             <div className="card card-pp my-link">
                                 <div className='position-absolute top-50 start-50 translate-middle'>
@@ -395,7 +395,7 @@ const Home = () => {
                             </div>
                         </div>
                             </div>
-                            <div className="col-xl-4 col-lg-6 col-md-6 col-sm-12">
+                            <div className="col-xl-4 col-lg-6 col-md-6 col-sm-12 my-project-card">
                             <div className='col-md-4 pt-5'>
                         <div className="card card-pp my-link">
                                 <div className='position-absolute top-50 start-50 translate-middle'>
@@ -407,7 +407,7 @@ const Home = () => {
                             </div>
                         </div>
                             </div>
-                            <div className="col-xl-4 col-lg-6 col-md-6 col-sm-12">
+                            <div className="col-xl-4 col-lg-6 col-md-6 col-sm-12 my-project-card">
  
                             <div className='col-md-4 pt-5'>
                         <div className="card card-pp my-link">
@@ -424,8 +424,8 @@ const Home = () => {
 
                        
 
-                     <div className="row">
-                        <div className="col-xl-4 col-lg-6 col-md-6 col-sm-12">
+                     <div className="row" style={{marginLeft:'25px'}}>
+                        <div className="col-xl-4 col-lg-6 col-md-6 col-sm-12 my-pddn-class my-project-card">
                         <div className='col-md-4 pt-5'>
                         <div className="card card-pp my-link">
                                 <div className='position-absolute top-50 start-50 translate-middle'>
@@ -437,7 +437,7 @@ const Home = () => {
                             </div>
                         </div>
                         </div>
-                        <div className="col-xl-4 col-lg-6 col-md-6 col-sm-12">
+                        <div className="col-xl-4 col-lg-6 col-md-6 col-sm-12 my-project-card">
  
                         <div className='col-md-4 pt-5'>
                         <div className="card card-pp my-link">
@@ -450,7 +450,7 @@ const Home = () => {
                             </div>
                         </div>
                         </div>
-                        <div className="col-xl-4 col-lg-6 col-md-6 col-sm-12">
+                        <div className="col-xl-4 col-lg-6 col-md-6 col-sm-12 my-project-card">
                         <div className='col-md-4 pt-5'>
                         <div className="card card-pp my-link">
                                 <div className='position-absolute top-50 start-50 translate-middle'>
@@ -470,7 +470,7 @@ const Home = () => {
                       
                     </div>
                 </section>
- */}
+
 
 
 
@@ -500,7 +500,7 @@ const Home = () => {
                                 <input type='text' className='form-control mb-3' placeholder='Subject' />
                                 <textarea type='textarea' className='form-control mb-3' placeholder='Your Name' />
 
-                                <button> SUBMIT NOW
+                                <button className='button-design'> SUBMIT NOW
                                 </button>
 
                             </div>

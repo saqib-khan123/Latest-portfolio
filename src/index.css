@@ -33,8 +33,12 @@ code {
   
 
 }
+.buttomMargin{
+  margin: 0;
+}
 .name-brand2{
   color: #ffff !important;
+  margin: 0;
 }
 .name-brand{
   color: #f9004d;
@@ -653,27 +657,58 @@ button:active {
   margin: 0
 } */
 
+@media (max-width: 425px){
+  .dflexright {
+    margin-left: 8px;
+    /* margin-right: 50px; */
+}
+}
+@media (max-width: 450px){
+  .card-pp {
+    width: 13.5rem;
+    height: 14rem;
+    /* margin-right: 10px; */
+   
+  }
+}
+
+@media (max-width: 375px){
+  .card-pp {
+    width: 13.5rem;
+    height: 14rem; 
+  }
+  .card-c__titl {
+    font-size: 16px !important;
+  }
+  .my-project-card{
+    padding: 0% !important ;
+  }
+  .button-design{
+    margin-left: 55px;
+  }
+}
+@media (max-width: 320px){
+  .card-pp {
+    width: 13.5rem;
+    height: 14rem; 
+  }
+  .card-c__titl {
+    font-size: 16px !important;
+  }
+  .my-project-card{
+    padding: 0% !important ;
+  }
+  .button-design{
+    margin-left: 33px;
+  }
+}
 @media (max-width: 799px){
 .my-font-size{
   font-size: 40px;
 }
 }
 
-/* @media (max-width: 985px){
-  .my-ul-links{
-    margin-left: 0px !important;
-  }
-}     */
-/* @media (max-width: 931px){
-  .my-ul-links{
-    margin-left: 600px !important;
-  }
-}    
-@media (max-width: 1250px){
-  .my-ul-links{
-    margin-left: 400px !important;
-  }
-}      */
+
 @media (max-width: 1440px){
   footer{
       width: 100%;
