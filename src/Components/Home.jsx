@@ -59,31 +59,31 @@ const Home = () => {
                     {/* # navbar #    */}
 
                     <div className='container-fluid p-5  '>
-                        <nav class="navbar navbar-expand-lg navbar-dark main-cont">
-                            <div class="container-fluid">
-                                <a class="navbar-brand name-brand name-brand2" href="#">Saqib Khan</a>
-                                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                                    <span class="navbar-toggler-icon"></span>
+                        <nav className="navbar navbar-expand-lg navbar-dark main-cont main-navigation">
+                            <div className="container-fluid ">
+                                <a className="navbar-brand   name-brand2" href="#">Saqib Khan</a>
+                                <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                                    <span className="navbar-toggler-icon"></span>
                                 </button>
-                                <div class="  " id="navbarSupportedContent">
-                                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
-                                        <li class="nav-item">
-                                            <a class="nav-link active" aria-current="page" href="/">Home</a>
+                                <div className=" collapse navbar-collapse  my-ul-links" id="navbarSupportedContent" >
+                                    <ul className="navbar-nav me-auto mb-2 mb-lg-0  ">
+                                        <li className="nav-item ">
+                                            <a className="nav-link active" aria-current="page" href="/">Home</a>
                                         </li>
-                                        <li class="nav-item">
-                                            <a class="nav-link active" onClick={scroll} aria-current="page" href="#">About</a>
-                                        </li>
-
-                                        <li class="nav-item">
-                                            <a class="nav-link active" onClick={scroll22} aria-current="page" href="#">Experience</a>
+                                        <li className="nav-item">
+                                            <a className="nav-link active" onClick={scroll} aria-current="page" href="#">About</a>
                                         </li>
 
-                                        <li class="nav-item">
-                                            <a class="nav-link active" onClick={scroll33} aria-current="page" href="#">Skills</a>
+                                        <li className="nav-item">
+                                            <a className="nav-link active" onClick={scroll22} aria-current="page" href="#">Experience</a>
                                         </li>
 
-                                        <li class="nav-item">
-                                            <a class="nav-link active" aria-current="page" onClick={scroll44} href="#">Contact</a>
+                                        <li className="nav-item">
+                                            <a className="nav-link active" onClick={scroll33} aria-current="page" href="#">Skills</a>
+                                        </li>
+
+                                        <li className="nav-item">
+                                            <a className="nav-link active" aria-current="page" onClick={scroll44} href="#">Contact</a>
                                         </li>
                                     </ul>
 
@@ -93,30 +93,30 @@ const Home = () => {
                     </div>
                     {/* # navbar #    */}
 
-                    <div className='row p-5 main-cont'>
-                        <div className='col-md-12 text-light'>
-                            <h2 className=''>Software Developer. </h2>
-                            <div class="text  mt-4">
+                    <div className='row p-5 main-cont '>
+                        <div className='col-md-12 col-sm-12 my-font-size text-light'>
+                            <h2 className='my-font-size'>Software Developer. </h2>
+                            <div className="text my-own-content  mt-4">
                                 <h1 className='ani'>
-                                    <span className='text-light fs-4'>Responsibilities</span>
-                                    <div class="message">
-                                        <div class="word"> Responsive</div>
-                                        <div class="word2">API Integration</div>
-                                        <div class="word3">Clean Code</div>
+                                    <span className='text-light fs-4 my-font-size my-own-content'>Responsibilities</span>
+                                    <div className="message my-font-size">
+                                        <div className="word my-font-size my-own-content"> Responsive</div>
+                                        <div className="word2 my-font-size my-own-content">API Integration</div>
+                                        <div className="word3 my-font-size my-own-content">Clean Code</div>
                                     </div>
                                 </h1>
                             </div>
-                            <p className='intro'>I'm<span> Saqib </span> & Welcome  <br />To The Portfolio.</p>
+                            <p className='intro my-font-size'>I'm<span> Saqib </span> & Welcome  <br />To The Portfolio.</p>
                         </div>
                     </div>
                 </div>
                 {/* ============================================About section==================== */}
 
 
-                <section id="MyAbout" class="about main-cont pt-4 p-5">
-                    <div class="container" data-aos="fade-up">
+                <section id="MyAbout" className="about main-cont pt-4 p-5">
+                    <div className="container" data-aos="fade-up">
 
-                        <div class="section-title text-start">
+                        <div className="section-title my-title-11 text-start">
                             <h2 className='text-center '>About</h2>
                             <p className=''>Hello there!  Implemented and maintained front-end web applications, resulting in a 20% reduction in page load speeds and conversion rates by utilizing modern web technologies such as React.js and best practices for user experience and accessibility.
                             Developed and executed front-end development strategies, resulting in a 15% increase in website performance by implementing optimization techniques such as code minification and troubleshooting issues using browser developer tools
@@ -135,32 +135,32 @@ const Home = () => {
                         </div>
                         <div>
                         </div>
-                        <div class="row">
-                            <div class="col-4 my-image">
-                                <img src="./images/myimage.jpeg" class="img-fluid" alt="Myimage" />
+                        <div className="row">
+                            <div className="col-4 my-image">
+                                <img src="./images/myimage.jpeg" className="img-fluid" alt="Myimage" />
                             </div>
-                            <div class="col-lg-8 pt-4 pt-lg-0 content">
+                            <div className="col-lg-8 pt-4 pt-lg-0 content">
                                 <h3>Software Developer at Scriza Pvt Ltd.</h3>
-                                <p class="fst-italic">
+                                <p className="fst-italic">
                                 A Focused, flexible and enthusiastic professional who is looking forward to work in a Customer centric environment. And organized, detail – oriented and passionate engineer, who is able to accomplish multiple tasks atease, without compromising on quality.
 
                                  I Assure you can give my 100%. Thanks.
                                 </p>
-                                <div class="row">
+                                <div className="row">
                                 
-                                    <div class="col-lg-6">
+                                    <div className="col-lg-6">
                                         <ul>
-                                            <li><i class="bi bi-rounded-right"></i> <strong>Birthday:</strong> 28th May 2001</li>
-                                            <li><i class="bi bi-rounded-right"></i> <strong>Websites:</strong> https://github.com/saqib-khan123?tab=repositories</li>
-                                            <li><i class="bi bi-rounded-right"></i> <strong>Phone:</strong>  +91 9368098745</li>
-                                            <li><i class="bi bi-rounded-right"></i> <strong>City:</strong> Noida </li>
+                                            <li><i className="bi bi-rounded-right"></i> <strong>Birthday:</strong> 28th May 2001</li>
+                                            <li><i className="bi bi-rounded-right"></i> <strong>Websites:</strong> https://github.com/saqib-khan123?tab=repositories</li>
+                                            <li><i className="bi bi-rounded-right"></i> <strong>Phone:</strong>  +91 9368098745</li>
+                                            <li><i className="bi bi-rounded-right"></i> <strong>City:</strong> Noida </li>
                                         </ul>
                                     </div>
-                                    <div class="col-lg-6">
+                                    <div className="col-lg-6">
                                         <ul>
-                                            <li><i class="bi bi-rounded-right"></i> <strong>Age:</strong>  24</li>
-                                            <li><i class="bi bi-rounded-right"></i> <strong>Degree:</strong>  Bachelor Of Application (BCA)</li>
-                                            <li><i class="bi bi-rounded-right"></i> <strong>Email:</strong>  saqibpathan776@gmail.com</li>
+                                            <li><i className="bi bi-rounded-right"></i> <strong>Age:</strong>  24</li>
+                                            <li><i className="bi bi-rounded-right"></i> <strong>Degree:</strong>  Bachelor Of Application (BCA)</li>
+                                            <li><i className="bi bi-rounded-right"></i> <strong>Email:</strong>  saqibpathan776@gmail.com</li>
                                         </ul>
                                     </div>
                                 </div>
@@ -177,8 +177,8 @@ const Home = () => {
 
                 {/* =======================================Reviews section======================== */}
 
-                <section className='p-5 main-cont' id='Myreview'>
-                    <div class="section-title">
+                <section className='p-5 main-cont' id='Myreview' style={{marginTop:'-60px'}}>
+                    <div className="section-title my-title-22">
                         <h2 className='text-center fw-bold pb-4'>Experience</h2>
                     </div>
                    <div className="main-div1">
@@ -218,98 +218,98 @@ const Home = () => {
                 <section className='main-cont p-5' id='skill'>
                 <div className='container-fluid '>
                 <div className='row '>
-                <div class="section-title ">
+                <div className="section-title my-title-33">
                             <h2 className='kk '>Skills</h2>
                             <p className=' pt-4'>Experienced in  few technical skills that are necessary for front end development:.</p>
                         </div>
-                    <div className='col-md-3'>
-                        <div class="progress d-flex justify-content-center">
+                    <div className='col-xl-3 col-lg-3 col-md-6 col-sm-6'>
+                        <div className="progress d-flex justify-content-center">
 
-                            <span class="title timer" data-from="0" data-to="90" data-speed="1800">Html</span>
-                            <div class="overlay"></div>
-                            <div class="left"></div>
-                            <div class="right"></div>
+                            <span className="title timer" data-from="0" data-to="90" data-speed="1800">Html</span>
+                            <div className="overlay"></div>
+                            <div className="left"></div>
+                            <div className="right"></div>
                         </div>
 
 
                     </div>
                    
-                    <div className='col-md-3'>
-                        <div class="progress d-flex justify-content-center">
+                    <div className='col-xl-3 col-lg-3 col-md-6 col-sm-6'>
+                        <div className="progress d-flex justify-content-center">
 
-                            <span class="title timer" data-from="0" data-to="85" data-speed="1800">Css</span>
-                            <div class="overlay"></div>
-                            <div class="left"></div>
-                            <div class="right"></div>
+                            <span className="title timer" data-from="0" data-to="85" data-speed="1800">Css</span>
+                            <div className="overlay"></div>
+                            <div className="left"></div>
+                            <div className="right"></div>
                         </div>
 
 
                     </div>
-                    <div className='col-md-3'>
-                        <div class="progress d-flex justify-content-center">
+                    <div className='col-xl-3 col-lg-3 col-md-6 col-sm-6'>
+                        <div className="progress d-flex justify-content-center">
 
-                            <span class="title timer" data-from="0" data-to="85" data-speed="1800"><small>Bootstrap</small></span>
-                            <div class="overlay"></div>
-                            <div class="left"></div>
-                            <div class="right"></div>
+                            <span className="title timer" data-from="0" data-to="85" data-speed="1800"><small>Bootstrap</small></span>
+                            <div className="overlay"></div>
+                            <div className="left"></div>
+                            <div className="right"></div>
                         </div>
 
 
                     </div>
-                    <div className='col-md-3'>
-                        <div class="progress d-flex justify-content-center">
+                    <div className='col-xl-3 col-lg-3 col-md-6 col-sm-6'>
+                        <div className="progress d-flex justify-content-center">
 
-                            <span class="title timer" data-from="0" data-to="85" data-speed="1800">javaScript</span>
-                            <div class="overlay"></div>
-                            <div class="left"></div>
-                            <div class="right"></div>
-                        </div>
-
-
-                    </div>
-
-
-                    <div className='col-md-3'>
-                        <div class="progress d-flex justify-content-center">
-
-                            <span class="title timer" data-from="0" data-to="85" data-speed="1800">React js</span>
-                            <div class="overlay"></div>
-                            <div class="left"></div>
-                            <div class="right"></div>
+                            <span className="title timer" data-from="0" data-to="85" data-speed="1800">javaScript</span>
+                            <div className="overlay"></div>
+                            <div className="left"></div>
+                            <div className="right"></div>
                         </div>
 
 
                     </div>
 
-                    <div className='col-md-3'>
-                        <div class="progress d-flex justify-content-center">
 
-                            <span class="title timer" data-from="0" data-to="85" data-speed="1800">Redux js</span>
-                            <div class="overlay"></div>
-                            <div class="left"></div>
-                            <div class="right"></div>
+                    <div className='col-xl-3 col-lg-3 col-md-6 col-sm-6'>
+                        <div className="progress d-flex justify-content-center">
+
+                            <span className="title timer" data-from="0" data-to="85" data-speed="1800">React js</span>
+                            <div className="overlay"></div>
+                            <div className="left"></div>
+                            <div className="right"></div>
                         </div>
 
 
                     </div>
-                    <div className='col-md-3'>
-                        <div class="progress d-flex justify-content-center">
 
-                            <span class="title timer" data-from="0" data-to="85" data-speed="1800">Oops</span>
-                            <div class="overlay"></div>
-                            <div class="left"></div>
-                            <div class="right"></div>
+                    <div className='col-xl-3 col-lg-3 col-md-6 col-sm-6'>
+                        <div className="progress d-flex justify-content-center">
+
+                            <span className="title timer" data-from="0" data-to="85" data-speed="1800">Redux js</span>
+                            <div className="overlay"></div>
+                            <div className="left"></div>
+                            <div className="right"></div>
                         </div>
 
 
                     </div>
-                    <div className='col-md-3'>
-                        <div class="progress d-flex justify-content-center">
+                    <div className='col-xl-3 col-lg-3 col-md-6 col-sm-6'>
+                        <div className="progress d-flex justify-content-center">
 
-                            <span class="title timer" data-from="0" data-to="85" data-speed="1800"><small>Git & GitHub</small></span>
-                            <div class="overlay"></div>
-                            <div class="left"></div>
-                            <div class="right"></div>
+                            <span className="title timer" data-from="0" data-to="85" data-speed="1800">Oops</span>
+                            <div className="overlay"></div>
+                            <div className="left"></div>
+                            <div className="right"></div>
+                        </div>
+
+
+                    </div>
+                    <div className='col-xl-3 col-lg-3 col-md-6 col-sm-6'>
+                        <div className="progress d-flex justify-content-center">
+
+                            <span className="title timer" data-from="0" data-to="85" data-speed="1800"><small>Git</small></span>
+                            <div className="overlay"></div>
+                            <div className="left"></div>
+                            <div className="right"></div>
                         </div>
 
 
@@ -328,7 +328,7 @@ const Home = () => {
                 <section className='main-cont p-5' id='certificate'>
                     <div className='container-fluid '>
                         <div className='row '>
-                            <div class="section-title">
+                            <div className="section-title my-title-44 my-section-title">
                                 <h2 className='text-center mb-4 '>Certificates</h2>
                             </div>
 
@@ -336,30 +336,30 @@ const Home = () => {
                                 <p className=' pt-4'>Certificates within my portfolio showcase my commitment to continuous learning and mastery in various fields. Each certificate represents dedicated effort and proficiency attained in specialized areas. They serve as tangible proof of my expertise, validating skills honed through rigorous training and experience. These certifications not only highlight my qualifications but also signify a proactive approach towards personal and professional development. Each certificate stands as a testament to my dedication, knowledge, and ongoing pursuit of excellence.</p>
 
                             </div>
-                            <div className='d-flex justify-content-center dflexright'>
+                            <div className='row justify-content-center dflexright'>
 
-                                <div className='col-md-4 mb-4 pb-4 pt-4'>
-                                    <div class="card card-c ">
-                                        <img class="img-fluid imag-size img-cls" src="./images/Beige Gold Floral Border Certificate Of Appreciation.png" alt="About Images" />
+                                <div className=' col-xl-4 col-lg-4 col-md-6 col-sm-12  mb-4 pb-4 pt-4'>
+                                    <div className="card card-c ">
+                                        <img className="img-fluid imag-size img-cls" src="./images/Beige Gold Floral Border Certificate Of Appreciation.png" alt="About Images" />
 
-                                        <div class="card-c__content">
-                                            <p class="card-c__title"><small>The 3 months Internship in React from Scriza Pvt Ltd.</small> </p>
+                                        <div className="card-c__content">
+                                            <p className="card-c__title"><small>The 3 months Internship in React from Scriza Pvt Ltd.</small> </p>
                                         </div>
                                     </div>
                                 </div>
-                                <div className='col-md-4 mb-4  pb-4 pt-4'>
-                                    <div class="card card-c "><img class="img-fluid imag-size img-cls" src="./images/Beige Gold Floral Border Certificate Of Appreciation.png" alt="About Images" />
+                                <div className='col-xl-4 col-lg-4 col-md-6 col-sm-12 mb-4  pb-4 pt-4'>
+                                    <div className="card card-c "><img className="img-fluid imag-size img-cls" src="./images/Beige Gold Floral Border Certificate Of Appreciation.png" alt="About Images" />
 
-                                        <div class="card-c__content">
-                                            <p class="card-c__title"><small>The participation in the Workshop on hardware And Application.</small></p>
+                                        <div className="card-c__content">
+                                            <p className="card-c__title"><small>The participation in the Workshop on hardware And Application.</small></p>
                                         </div>
                                     </div>
                                 </div>
-                                <div className='col-md-4 mb-3  pb-4 pt-4'>
-                                    <div class="card card-c "><img class="img-fluid imag-size img-cls" src="./images/Beige Gold Floral Border Certificate Of Appreciation.png" alt="About Images" />
+                                <div className='col-xl-4 col-lg-4 col-md-6 col-sm-12 mb-3  pb-4 pt-4'>
+                                    <div className="card card-c "><img className="img-fluid imag-size img-cls" src="./images/Beige Gold Floral Border Certificate Of Appreciation.png" alt="About Images" />
 
-                                        <div class="card-c__content">
-                                            <p class="card-c__title"><small>The participation in the as a captain in college team in tournament</small></p>
+                                        <div className="card-c__content">
+                                            <p className="card-c__title"><small>The participation in the as a captain in college team in tournament</small></p>
                                         </div>
                                     </div>
                                 </div>
@@ -374,79 +374,103 @@ const Home = () => {
 
 
                 {/* ============================Projects============== */}
-
+{/* 
                 <section>
-                    <div className=' container-fluid row p-5 text-center main-cont' id='project'> 
-                        <div class="section-title">
+                    <div className=' container-fluid row p-5 pe-0 text-center main-cont' id='project'> 
+                        <div className="section-title">
                             <h2>My Latest Project</h2>
                         </div>
-
                         <p>There are some my latest project which i build with my skills and I already mentioned above.</p>
-                        <div className='col-md-4 pt-5'>
-                            <div class="card card-pp my-link">
+
+                        <div className="row">
+                            <div className="col-xl-4 col-lg-6 col-md-6 col-sm-12">
+                            <div className='col-md-4 pt-5'>
+                            <div className="card card-pp my-link">
                                 <div className='position-absolute top-50 start-50 translate-middle'>
-                                    <p class="card-c__titl fs-5">E-commerce web <span><small>(Reat js + Redux js)</small></span></p>
+                                    <p className="card-c__titl fs-5">E-commerce web <span><small>(Reat js + Redux js)</small></span></p>
                                     <Link to='https://github.com/saqib-khan123/React-Redux_project'>Go & Check out</Link>
 
                                 </div>
 
                             </div>
                         </div>
-                        <div className='col-md-4 pt-5'>
-                        <div class="card card-pp my-link">
+                            </div>
+                            <div className="col-xl-4 col-lg-6 col-md-6 col-sm-12">
+                            <div className='col-md-4 pt-5'>
+                        <div className="card card-pp my-link">
                                 <div className='position-absolute top-50 start-50 translate-middle'>
-                                    <p class="card-c__titl fs-5">School ERP <br /> <span><small>( Reat js )</small></span></p>
+                                    <p className="card-c__titl fs-5">School ERP <br /> <span><small>( Reat js )</small></span></p>
                                     <Link to='https://github.com/saqib-khan123/School_ERP'>Go & Check out</Link>
 
                                 </div>
 
                             </div>
                         </div>
-                        <div className='col-md-4 pt-5'>
-                        <div class="card card-pp my-link">
+                            </div>
+                            <div className="col-xl-4 col-lg-6 col-md-6 col-sm-12">
+ 
+                            <div className='col-md-4 pt-5'>
+                        <div className="card card-pp my-link">
                                 <div className='position-absolute top-50 start-50 translate-middle'>
-                                    <p class="card-c__titl fs-5">Restraunt website <span><small>(Html,css, bootstrap & js)</small></span></p>
+                                    <p className="card-c__titl fs-5">Restraunt website <span><small>(Html,css, bootstrap & js)</small></span></p>
                                     <Link to='https://restraunt-web.netlify.app'>Go & Check out</Link>
 
                                 </div>
 
                             </div>
                         </div>
+                            </div>
+                        </div>
+
+                       
+
+                     <div className="row">
+                        <div className="col-xl-4 col-lg-6 col-md-6 col-sm-12">
                         <div className='col-md-4 pt-5'>
-                        <div class="card card-pp my-link">
+                        <div className="card card-pp my-link">
                                 <div className='position-absolute top-50 start-50 translate-middle'>
-                                    <p class="card-c__titl fs-5">E-commerce website  <span><small>(Html,css, bootstrap & js)</small></span></p>
+                                    <p className="card-c__titl fs-5">E-commerce website  <span><small>(Html,css, bootstrap & js)</small></span></p>
                                     <Link to='https://e-commer-webb.netlify.app'>Go & Check out</Link>
 
                                 </div>
 
                             </div>
                         </div>
+                        </div>
+                        <div className="col-xl-4 col-lg-6 col-md-6 col-sm-12">
+ 
                         <div className='col-md-4 pt-5'>
-                        <div class="card card-pp my-link">
+                        <div className="card card-pp my-link">
                                 <div className='position-absolute top-50 start-50 translate-middle'>
-                                    <p class="card-c__titl fs-5">Travel website  <span><small>(Html,css, bootstrap & js)</small></span></p>
+                                    <p className="card-c__titl fs-5">Travel website  <span><small>(Html,css, bootstrap & js)</small></span></p>
                                     <Link to='https://traveller-webb.netlify.app'>Go & Check out</Link>
 
                                 </div>
 
                             </div>
                         </div>
-
+                        </div>
+                        <div className="col-xl-4 col-lg-6 col-md-6 col-sm-12">
                         <div className='col-md-4 pt-5'>
-                        <div class="card card-pp my-link">
+                        <div className="card card-pp my-link">
                                 <div className='position-absolute top-50 start-50 translate-middle'>
-                                    <p class="card-c__titl fs-5">Basic html, css project <span><small>(Html,css, bootstrap & js)</small></span></p>
+                                    <p className="card-c__titl fs-5">Basic html, css project <span><small>(Html,css, bootstrap & js)</small></span></p>
                                     <Link to='https://github.com/saqib-khan123/Html_css_live_pro'>Go & Check out</Link>
 
                                 </div>
 
                             </div>
                         </div>
+                        </div>
+                     </div>
+                      
+                   
+
+                       
                       
                     </div>
                 </section>
-
+ */}
 
 
 
@@ -462,8 +486,8 @@ const Home = () => {
 
 
                         <div className='row '>
-                            <div class="section-title">
-                                <h2 className='fw-bold pb-4 text-center mb-4'>Contact Us.</h2>
+                            <div className="section-title">
+                                <h2 className='fw-bold pb-4 text-center mb-4' id='font-size'>Contact Us.</h2>
                             </div>
 
                             <div className='col-md-6 form-p '>
@@ -481,8 +505,8 @@ const Home = () => {
 
                             </div>
                     
-                            <div class="col-lg-6">
-                                <img className='contact-img' src="./images/about-6.jpg" class="img-fluid" alt="" />
+                            <div className="col-lg-6">
+                                <img className='contact-img img-fluid' src="./images/about-6.jpg"  alt="" />
                             </div>
 
                         </div>
@@ -522,50 +546,47 @@ const Home = () => {
 
                 {/* ==============================footer======================== */}
                 <footer>
-                    <div class="social">
+                    <div className="social">
                         <p>Follow me on social media</p>
-                        <ul class="wrapper">
+                        <ul className="wrapper">
                             <a href="#" target="_blank">
-                                <li class="icon linkedin">
-                                    <span class="tooltip">LinkedIn</span>
-                                    <span><i class="fab fa-linkedin"></i></span>
+                                <li className="icon linkedin">
+                                    <span className="tooltip">LinkedIn</span>
+                                    <span><i className="fab fa-linkedin"></i></span>
                                 </li>
                             </a>
                             <a href="#" target="_blank">
-                                <li class="icon github">
-                                    <span class="tooltip">GitHub</span>
-                                    <span><i class="fab fa-github"></i></span>
+                                <li className="icon github">
+                                    <span className="tooltip">GitHub</span>
+                                    <span><i className="fab fa-github"></i></span>
                                 </li>
                             </a>
                             <a href="#" target="_blank">
-                                <li class="icon facebook">
-                                    <span class="tooltip">Facebook</span>
-                                    <span><i class="fab fa-facebook-f"></i></span>
+                                <li className="icon facebook">
+                                    <span className="tooltip">Facebook</span>
+                                    <span><i className="fab fa-facebook-f"></i></span>
                                 </li>
                             </a>
                             <a href="#" target="_blank">
-                                <li class="icon instagram">
-                                    <span class="tooltip">Instagram</span>
-                                    <span><i class="fab fa-instagram"></i></span>
+                                <li className="icon instagram">
+                                    <span className="tooltip">Instagram</span>
+                                    <span><i className="fab fa-instagram"></i></span>
                                 </li>
                             </a>
                             <a href="#" target="_blank">
-                                <li class="icon twitter">
-                                    <span class="tooltip">Twitter</span>
-                                    <span><i class="fab fa-twitter"></i></span>
+                                <li className="icon twitter">
+                                    <span className="tooltip">Twitter</span>
+                                    <span><i className="fab fa-twitter"></i></span>
                                 </li>
                             </a>
 
                         </ul>
                     </div>
-                    <div class="final_text"></div>
+                    <div className="final_text"></div>
                     <p>Copyright &copy; All rights reserved
                         <br />Designed By Saqib khan, 2023
                     </p>
                 </footer>
-
-
-
             </div>
         </>
     )
